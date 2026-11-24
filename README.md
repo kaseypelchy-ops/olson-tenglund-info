@@ -18,3 +18,11 @@ Confirm the owner approves all copy and Auto Value mentions, and confirm the lis
 
 ## Technical
 Four static HTML pages, one CSS file, one small JS file, and `/assets`. Routes are configured in `vercel.json`. Google Fonts are loaded online, with system fallbacks. Phone links use `tel:`; directions use Google Maps search URLs.
+
+
+## November image refresh
+- `assets/parts-counter-scene.webp`: new homepage hero background — photographed-style service at a parts counter.
+- `assets/mechanic-at-work.webp`: new, distinct photo for the lower promotional section.
+- The original `assets/olson-banner.webp` stays in the archive but is not referenced on the homepage.
+- The pictures are illustrative AI-generated scenes, not photographs of actual Olson & Tenglund personnel or premises.
+- Publicly displayed store hours: Monday–Friday, 8:00 AM–5:00 PM.
