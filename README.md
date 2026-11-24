@@ -1,28 +1,32 @@
-# Olson & Tenglund informational website — redesigned
+# Olson & Tenglund, Inc. — Informational Website
 
-A lightweight, responsive, static four-page site for the three Olson & Tenglund auto parts locations. The design uses the user-supplied company logos and automotive parts Facebook banner. No database, catalog, or checkout is required.
+A static four-page website for the Olson & Tenglund auto parts stores in Port Allegany, Coudersport and Smethport, Pennsylvania. This design follows the approved dark-navy parts-counter homepage reference, with real HTML content and responsive layouts.
 
 ## Pages
-- `/` Home
-- `/locations` Stores, addresses, click-to-call, directions
-- `/about` Local-business overview
-- `/contact` Contact details
+- `/` — Homepage: parts-counter hero, Auto Value partnership, hours, all three locations, parts/supplies, and a local-service message.
+- `/locations` — Addresses, telephone links and maps directions.
+- `/about` — Company overview.
+- `/contact` — Contact information.
+
+## Business details
+Store hours: Monday–Friday, 8:00 AM–5:00 PM at all locations.
+- Port Allegany: 303 N Main St, Port Allegany, PA 16743 · 814-642-2517
+- Coudersport: 112 N Main St, Coudersport, PA 16915 · 814-274-8881
+- Smethport: 400 W Main St, Smethport, PA 16749 · 814-887-7777
 
 ## Deploy
-Upload the contents of this folder into the existing `olson-tenglund-info` GitHub repository, then push to `main`. Vercel should redeploy the existing `olson-tenglund-info` project automatically. This is **not** the original inventory/catalog repository.
+Extract the ZIP contents into the **existing** `olson-info-site` Git working directory (do not delete `.git`), replacing existing files. Then:
 
-From Windows PowerShell inside this site directory: `git add .; git commit -m "Redesign informational site"; git push origin main`.
+```powershell
+git add .
+git commit -m "Match informational homepage to preferred design"
+git push origin main
+```
 
-## Before owner approval
-Confirm the owner approves all copy and Auto Value mentions, and confirm the listed phone/address information. Store hours are intentionally omitted; the site advises customers to call. The parts banner is owner-provided design artwork; this release does not add unauthorised Auto Value offers or prices.
+Vercel automatically redeploys if the connected repository has auto deployment enabled. No npm install, database or build step is required.
 
-## Technical
-Four static HTML pages, one CSS file, one small JS file, and `/assets`. Routes are configured in `vercel.json`. Google Fonts are loaded online, with system fallbacks. Phone links use `tel:`; directions use Google Maps search URLs.
-
-
-## November image refresh
-- `assets/parts-counter-scene.webp`: new homepage hero background — photographed-style service at a parts counter.
-- `assets/mechanic-at-work.webp`: new, distinct photo for the lower promotional section.
-- The original `assets/olson-banner.webp` stays in the archive but is not referenced on the homepage.
-- The pictures are illustrative AI-generated scenes, not photographs of actual Olson & Tenglund personnel or premises.
-- Publicly displayed store hours: Monday–Friday, 8:00 AM–5:00 PM.
+## Notes
+- Homepage photography is illustrative AI-generated artwork, not a photograph of an Olson & Tenglund store or employee.
+- The Auto Value partner mention reflects the business information provided by the owner. The stylized text mark on the page is not an official supplied Auto Value logo file. Replace with an officially licensed vector/brand asset when available.
+- This site does not offer ecommerce or claim real-time product availability.
+- When the business purchases a domain, assign it under Vercel project settings.
