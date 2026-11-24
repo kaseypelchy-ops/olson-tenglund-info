@@ -30,3 +30,9 @@ Vercel automatically redeploys if the connected repository has auto deployment e
 - The Auto Value partner mention reflects the business information provided by the owner. The stylized text mark on the page is not an official supplied Auto Value logo file. Replace with an officially licensed vector/brand asset when available.
 - This site does not offer ecommerce or claim real-time product availability.
 - When the business purchases a domain, assign it under Vercel project settings.
+
+## Reverse logo update (November 2026)
+
+The homepage and three interior pages use the supplied reverse Olson & Tenglund logo in the navy header and footer. The header includes a compact text lockup to keep the supplied stacked logo legible in the navigation. The original navy logo remains in `assets/olson-horizontal.webp` for future light-background uses, and the round badge remains available for favicon use.
+
+To deploy this revision, extract the contents into the root of your existing `olson-info-site` Git repository, replacing matching site files but **do not delete `.git`**. Run `git add .`, `git commit -m "Use reverse logo across dark site branding"`, and `git push origin main`.

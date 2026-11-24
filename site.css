@@ -103,3 +103,41 @@ body:not(.landing-reference) .main-nav a[aria-current=page]{color:#ff4564}
 @media(max-width:960px){.landing-reference .brand-logo{width:min(300px,38vw)}.landing-reference .main-nav{gap:14px}.ref-hero{height:440px}.ref-copy{max-width:540px}.ref-copy h1{font-size:clamp(3.1rem,6vw,4.1rem)}.ref-locations-layout{grid-template-columns:1fr}.ref-stores-intro{max-width:650px}.ref-stores-intro h2 br{display:none}.ref-location-cards{gap:16px}.ref-partner-inner{flex-wrap:wrap;gap:20px}.ref-partner-hours{border-left:0;padding-left:0}.ref-partner p{min-width:200px}}
 @media(max-width:720px){.landing-reference .shell{width:min(calc(100% - 36px),1380px)}.landing-reference .site-header{height:77px}.landing-reference .brand-logo{width:min(270px,63vw)}.landing-reference .menu-button{background:#fff;color:#06182e}.landing-reference .main-nav{background:#06182e}.landing-reference .main-nav a{color:#fff}.landing-reference .main-nav a[aria-current=page]{color:#fff;text-decoration:none}.ref-hero{height:auto;min-height:520px}.ref-hero-photo{inset:0;background-position:62% center;opacity:.55}.ref-hero-shade{background:linear-gradient(90deg,#04172bfa,#04172bd7 55%,#04172b7d)}.ref-hero-inner{padding:59px 0}.ref-copy h1{font-size:clamp(3.5rem,12vw,5rem)}.ref-copy p{font-size:1rem}.ref-swoosh{margin-left:50px}.ref-partner-inner{padding:22px 0;gap:14px}.ref-partner-brand{min-width:0;width:100%;gap:11px}.ref-partner-brand strong{font-size:1.7rem}.ref-partner p{font-size:.85rem;flex:1 1 100%}.ref-partner-hours{margin-top:6px}.ref-location-cards{grid-template-columns:1fr}.ref-locations{padding:40px 0}.ref-stores-intro{margin-bottom:3px}.ref-categories-inner{padding:26px 0}.ref-category-list{flex-wrap:wrap;justify-content:flex-start;gap:14px}.ref-category-list li{border-left:0;padding:0;width:calc(50% - 7px)}.ref-afterfold-inner{grid-template-columns:1fr;gap:28px}.ref-afterfold-photo{height:280px}.ref-cta-inner{display:block}.ref-cta .ref-btn{margin-top:15px}body:not(.landing-reference) .menu-button{display:block}}
 @media(max-width:400px){.ref-hero-actions{flex-direction:column;align-items:stretch}.ref-hero-actions .ref-btn{width:100%}.ref-partner-brand small{display:none}.ref-partner-badge{font-size:.9rem}.ref-category-list li{width:100%}}
+
+/* Reverse brand lockup: transparent uploaded logo, no synthetic color inversion. */
+.site-header, .landing-reference .site-header, body:not(.landing-reference) .site-header {
+  background:#05182d; border-bottom:4px solid #df1238; color:#fff;
+}
+.brand-logo, .landing-reference .brand-logo, body:not(.landing-reference) .brand-logo {
+  display:flex; width:auto; max-width:none; height:auto; align-items:center; gap:12px;
+  flex:0 1 auto; min-width:0; text-decoration:none;
+}
+.brand-logo img, .landing-reference .brand-logo img, body:not(.landing-reference) .brand-logo img {
+  width:94px; height:79px; object-fit:contain; filter:none; flex-shrink:0;
+}
+.brand-wordmark {display:flex; flex-direction:column; gap:2px; white-space:nowrap; color:#fff; line-height:1.05}
+.brand-wordmark strong {font-family:'Barlow Condensed',Impact,sans-serif; font-size:clamp(1.35rem,2vw,1.95rem); font-weight:800; font-style:italic; letter-spacing:-.018em}
+.brand-wordmark small {font-family:'DM Sans',Arial,sans-serif; font-size:.61rem; font-weight:800; letter-spacing:.3em; color:#fff; width:max-content; background:#c70a29; padding:4px 10px 4px 12px; transform:skewX(-11deg)}
+.site-header .main-nav a, .landing-reference .main-nav a, body:not(.landing-reference) .main-nav a {color:#fff}
+.site-header .main-nav a[aria-current=page], .landing-reference .main-nav a[aria-current=page], body:not(.landing-reference) .main-nav a[aria-current=page] {color:#fff; text-decoration:underline; text-decoration-color:#e80d34; text-decoration-thickness:3px; text-underline-offset:12px}
+.site-header .main-nav .nav-action, .landing-reference .main-nav .nav-action, body:not(.landing-reference) .main-nav .nav-action {background:#c70a29; color:#fff}
+.footer-logo, .landing-reference .footer-logo {background:none; padding:0; max-width:230px; border-radius:0}
+.footer-logo img, .landing-reference .footer-logo img {width:100%; height:auto; filter:none; object-fit:contain}
+@media (max-width:1100px) {
+  .brand-logo img, .landing-reference .brand-logo img, body:not(.landing-reference) .brand-logo img {width:78px;height:68px}
+  .brand-wordmark strong {font-size:1.5rem}
+  .brand-logo, .landing-reference .brand-logo {gap:7px}
+  .main-nav, .landing-reference .main-nav {gap:14px}
+}
+@media (max-width:720px) {
+  .brand-logo img, .landing-reference .brand-logo img, body:not(.landing-reference) .brand-logo img {width:59px;height:58px}
+  .brand-wordmark strong {font-size:clamp(1.08rem,4vw,1.4rem)}
+  .brand-wordmark small {font-size:.45rem;padding:3px 6px; letter-spacing:.22em}
+  .brand-logo, .landing-reference .brand-logo, body:not(.landing-reference) .brand-logo {width:auto;max-width:calc(100% - 88px);gap:5px}
+  .menu-button, .landing-reference .menu-button, body:not(.landing-reference) .menu-button {background:#102e49;color:#fff;border-color:#6a8499}
+  .main-nav, .landing-reference .main-nav, body:not(.landing-reference) .main-nav {background:#06182e}
+}
+@media (max-width:380px) {
+  .brand-logo img, .landing-reference .brand-logo img, body:not(.landing-reference) .brand-logo img {width:48px;height:50px}
+  .brand-wordmark strong {font-size:1rem}
+}
