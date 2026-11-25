@@ -159,3 +159,22 @@ body:not(.landing-reference) .main-nav a[aria-current=page]{color:#ff4564}
 .answer-grid a,.answer-panel-links a{color:#9e1e25;text-decoration:underline;text-underline-offset:3px}
 .answer-panel-links{margin:1.4rem 0 0;font-size:.96rem;color:#45566a}
 @media(max-width:700px){.answer-grid{grid-template-columns:1fr}.answer-grid article{padding:20px}.breadcrumb-trail{font-size:.78rem}}
+
+
+/* Homepage status popup replaces the full-width banner so the hero stays clean. */
+.status-popup{position:fixed;right:20px;bottom:20px;z-index:60;width:min(360px,calc(100vw - 32px));opacity:0;transform:translateY(18px);pointer-events:none;transition:opacity .25s ease,transform .25s ease}
+.status-popup.is-visible{opacity:1;transform:translateY(0);pointer-events:auto}
+.status-popup.is-hidden{opacity:0;transform:translateY(12px);pointer-events:none}
+.status-popup-inner{position:relative;background:linear-gradient(145deg,#06182e,#0d2c4b);color:#fff;border:1px solid #35516f;border-top:4px solid #e01134;border-radius:14px;box-shadow:0 18px 40px rgba(2,15,29,.3);padding:16px 18px 18px}
+.status-popup-kicker{text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;font-weight:800;color:#ff8ea1;margin-bottom:7px}
+.status-popup h2{font-size:1.8rem;line-height:1;margin:0 0 10px;color:#fff}
+.status-popup p{margin:0;color:#dce6ef;line-height:1.55;font-size:.94rem;padding-right:18px}
+.status-popup p strong{color:#fff}
+.status-popup-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:14px}
+.status-popup-links a{color:#fff;background:#c70a29;text-decoration:none;font-weight:800;font-size:.86rem;padding:9px 12px;border-radius:8px;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.status-popup-links a:last-child{background:transparent;border:1px solid rgba(255,255,255,.35)}
+.status-popup-close{position:absolute;top:9px;right:10px;border:0;background:transparent;color:#b9cad8;font-size:1.5rem;line-height:1;padding:2px 6px;cursor:pointer}
+.status-popup-close:hover{color:#fff}
+.ref-hero-actions .ref-btn{min-width:190px;line-height:1.15}
+.ref-directions{width:100%;padding:10px 14px;line-height:1.15}
+@media(max-width:560px){.status-popup{right:16px;left:16px;bottom:16px;width:auto}.status-popup h2{font-size:1.55rem}.status-popup p{padding-right:0}.status-popup-links{gap:10px}.status-popup-links a{flex:1 1 auto;text-align:center}.ref-hero-actions .ref-btn{min-width:0}}
