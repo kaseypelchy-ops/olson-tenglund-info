@@ -228,3 +228,11 @@ body:not(.landing-reference) .main-nav a[aria-current=page]{color:#ff4564}
 .parts-guide-crosslink .button{white-space:nowrap;flex-shrink:0}
 @media(max-width:860px){.parts-guide-layout{grid-template-columns:1fr;gap:25px}.parts-guide-aside{grid-template-columns:1fr 1fr}.parts-guide-crosslink>.shell{flex-wrap:wrap}}
 @media(max-width:620px){.parts-guide-content{padding:28px 0 45px}.parts-guide-aside{grid-template-columns:1fr}.parts-guide-crosslink .button{width:100%;white-space:normal}.parts-guide-store-list a{flex-direction:column;align-items:flex-start;gap:3px}}
+
+
+/* Official Facebook profile: discreet footer presence that matches the existing site. */
+.footer-facebook{display:inline-flex;align-items:center;gap:9px;padding:9px 13px;margin-top:12px;border:1px solid rgba(255,255,255,.32);border-radius:7px;color:#fff;font-size:.85rem;font-weight:800;text-decoration:none;transition:background .15s,border-color .15s}
+.footer-facebook:hover{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.65)}
+.footer-facebook svg{flex:none;display:block}
+.about-facebook-note{margin-top:18px!important;font-size:.95rem!important}
+.about-facebook-note a{color:#b20b2d;font-weight:800;text-underline-offset:3px}

@@ -41,6 +41,7 @@ def graph_for(path,title):
          'alternateName':['Olson and Tenglund','Olson Tenglund','Olson & Tenglund Auto Parts'],
          'url':BASE+'/','logo':BASE+'/assets/olson-horizontal.webp',
          'description':DATA['description'],
+         'sameAs':list(DATA.get('socialProfiles',{}).values()),
          'subOrganization':[{'@id':BASE+'/locations/'+s['slug']+'#store'} for s in STORES]}
     website={'@type':'WebSite','@id':BASE+'/#website','name':DATA['name']+' Auto Parts','url':BASE+'/','publisher':{'@id':BASE+'/#organization'},'inLanguage':'en-US'}
     page={'@type':'WebPage','@id':BASE+path+'#webpage','url':BASE+path if path!='/' else BASE+'/','name':title,'isPartOf':{'@id':BASE+'/#website'},'inLanguage':'en-US'}
