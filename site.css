@@ -326,3 +326,6 @@ body:not(.landing-reference) .main-nav a[aria-current=page]{color:#ff4564}
 .promo-photo-unavailable a{font-size:.73rem;color:#be0a31;text-decoration:underline;font-weight:800}
 .promo-photo-credit a {color:#b8082c;text-decoration:underline}
 .promo-image-disclaimer{font-size:.78rem;color:#586a7a}
+
+/* Jobber specials do not publish wholesale prices. */
+.promo-price-item strong.promo-call-price{font-size:.73rem;white-space:normal;line-height:1.2;text-align:right;color:#a1072a;font-weight:900}.promo-price-list-dense .promo-price-item strong.promo-call-price{font-size:.69rem}@media(max-width:640px){.promo-price-item strong.promo-call-price{font-size:.76rem}}
