@@ -334,7 +334,7 @@ body:not(.landing-reference) .main-nav a[aria-current=page]{color:#ff4564}
 .landing-reference .winter-spotlight{background:#f5f8fb;color:#09223a;border-bottom:1px solid #dae5ef;padding:37px 0 42px}
 .landing-reference .winter-spotlight-inner{display:grid;grid-template-columns:minmax(0,.90fr) minmax(0,1.1fr);align-items:center;gap:clamp(28px,5.1vw,78px)}
 .landing-reference .winter-spotlight-visual{min-width:0;border-radius:15px;background:#050d16;overflow:hidden;box-shadow:0 16px 32px #08243d20}
-.landing-reference .winter-spotlight-visual img{display:block;width:100%;height:auto;aspect-ratio:700/440;object-fit:cover}
+.landing-reference .winter-spotlight-visual img{display:block;width:100%;height:auto;aspect-ratio:700/440;object-fit:contain;object-position:center;background:#050d16}
 .landing-reference .winter-spotlight-eyebrow{display:block;color:#c10730;font-size:.75rem;font-weight:850;letter-spacing:.11em;margin-bottom:12px}
 .landing-reference .winter-spotlight h2{font-size:clamp(2.15rem,3.25vw,3.5rem);letter-spacing:-.035em;line-height:1.06;margin:0 0 15px;max-width:700px}
 .landing-reference .winter-spotlight-copy>p{font-size:1rem;line-height:1.65;color:#344e64;margin:0 0 11px;max-width:620px}
