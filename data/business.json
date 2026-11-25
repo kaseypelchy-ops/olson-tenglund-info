@@ -1,0 +1,11 @@
+{
+  "name": "Olson & Tenglund, Inc.",
+  "website": "https://olsontenglund.com",
+  "description": "Independent local auto parts retailer operating stores in Port Allegany, Coudersport, and Smethport, Pennsylvania. Now partnered with Auto Value and serving retail customers and professional repair shops.",
+  "partner": "Auto Value",
+  "locations": [
+    {"slug":"port-allegany","city":"Port Allegany","street":"303 N Main St","state":"PA","zip":"16743","phone":"814-642-2517","phoneE164":"+18146422517","weekdayHours":"08:00-17:00","weekendHours":"unconfirmed"},
+    {"slug":"coudersport","city":"Coudersport","street":"112 N Main St","state":"PA","zip":"16915","phone":"814-274-8881","phoneE164":"+18142748881","weekdayHours":"08:00-17:00","weekendHours":"unconfirmed"},
+    {"slug":"smethport","city":"Smethport","street":"400 W Main St","state":"PA","zip":"16749","phone":"814-887-7777","phoneE164":"+18148877777","weekdayHours":"08:00-17:00","weekendHours":"unconfirmed"}
+  ]
+}
