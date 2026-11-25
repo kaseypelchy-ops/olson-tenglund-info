@@ -178,3 +178,16 @@ body:not(.landing-reference) .main-nav a[aria-current=page]{color:#ff4564}
 .ref-hero-actions .ref-btn{min-width:190px;line-height:1.15}
 .ref-directions{width:100%;padding:10px 14px;line-height:1.15}
 @media(max-width:560px){.status-popup{right:16px;left:16px;bottom:16px;width:auto}.status-popup h2{font-size:1.55rem}.status-popup p{padding-right:0}.status-popup-links{gap:10px}.status-popup-links a{flex:1 1 auto;text-align:center}.ref-hero-actions .ref-btn{min-width:0}}
+
+/* Hero sizing fix: allow all copy and both CTAs to fit without clipping. */
+.landing-reference .ref-hero{height:auto;min-height:540px;overflow:hidden}
+.landing-reference .ref-hero-inner{height:auto;min-height:540px;padding-top:54px;padding-bottom:55px;align-items:center}
+.landing-reference .ref-copy{padding-bottom:0}
+@media (max-width:960px){
+  .landing-reference .ref-hero{height:auto;min-height:520px}
+  .landing-reference .ref-hero-inner{min-height:520px;padding-top:52px;padding-bottom:55px}
+}
+@media (max-width:720px){
+  .landing-reference .ref-hero{height:auto;min-height:0}
+  .landing-reference .ref-hero-inner{min-height:0;padding-top:65px;padding-bottom:65px}
+}
