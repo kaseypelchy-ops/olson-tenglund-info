@@ -1,5 +1,5 @@
 {
-  "campaign": "Auto Value 2026–2027 Winter Edition",
+  "campaign": "Auto Value 2026\u20132027 Winter Edition",
   "validThrough": "2027-02-28",
   "pricingPolicy": "Prices are transcribed from the supplied 2026-2027 winter flyer. Jobber Specials may be trade pricing. Prices, brands, and availability may vary by location; ask a store to confirm customer eligibility and stock.",
   "products": [
@@ -8,56 +8,92 @@
       "name": "SnowDriver winter wiper blades",
       "brand": "Bosch",
       "sku": "BOS-13SD / 15SD / 16SD / 17SD / 18SD / 19SD / 20SD / 21SD / 22SD / 24SD / 26SD / 28SD",
-      "description": "Winter wiper blade sizes listed in the flyer.",
+      "description": "Winter wiper blade sizes listed in the flyer. Size shown next to each SKU.",
       "audience": "trade",
       "prices": [
         {
           "sku": "13SD",
-          "price": 6.5
+          "price": 6.5,
+          "size": "13\"",
+          "displaySku": "13SD \u2014 13 in.",
+          "sizeInches": 13
         },
         {
           "sku": "15SD",
-          "price": 6.5
+          "price": 6.5,
+          "size": "15\"",
+          "displaySku": "15SD \u2014 15 in.",
+          "sizeInches": 15
         },
         {
           "sku": "16SD",
-          "price": 6.5
+          "price": 6.5,
+          "size": "16\"",
+          "displaySku": "16SD \u2014 16 in.",
+          "sizeInches": 16
         },
         {
           "sku": "17SD",
-          "price": 6.5
+          "price": 6.5,
+          "size": "17\"",
+          "displaySku": "17SD \u2014 17 in.",
+          "sizeInches": 17
         },
         {
           "sku": "18SD",
-          "price": 6.5
+          "price": 6.5,
+          "size": "18\"",
+          "displaySku": "18SD \u2014 18 in.",
+          "sizeInches": 18
         },
         {
           "sku": "19SD",
-          "price": 6.5
+          "price": 6.5,
+          "size": "19\"",
+          "displaySku": "19SD \u2014 19 in.",
+          "sizeInches": 19
         },
         {
           "sku": "20SD",
-          "price": 7.5
+          "price": 7.5,
+          "size": "20\"",
+          "displaySku": "20SD \u2014 20 in.",
+          "sizeInches": 20
         },
         {
           "sku": "21SD",
-          "price": 7.5
+          "price": 7.5,
+          "size": "21\"",
+          "displaySku": "21SD \u2014 21 in.",
+          "sizeInches": 21
         },
         {
           "sku": "22SD",
-          "price": 7.5
+          "price": 7.5,
+          "size": "22\"",
+          "displaySku": "22SD \u2014 22 in.",
+          "sizeInches": 22
         },
         {
           "sku": "24SD",
-          "price": 8.99
+          "price": 8.99,
+          "size": "24\"",
+          "displaySku": "24SD \u2014 24 in.",
+          "sizeInches": 24
         },
         {
           "sku": "26SD",
-          "price": 8.99
+          "price": 8.99,
+          "size": "26\"",
+          "displaySku": "26SD \u2014 26 in.",
+          "sizeInches": 26
         },
         {
           "sku": "28SD",
-          "price": 8.99
+          "price": 8.99,
+          "size": "28\"",
+          "displaySku": "28SD \u2014 28 in.",
+          "sizeInches": 28
         }
       ],
       "minPrice": 6.5,
@@ -76,15 +112,21 @@
       "prices": [
         {
           "sku": "37-160",
-          "price": 9.75
+          "price": 9.75,
+          "sizeInches": 16,
+          "displaySku": "37-160 \u2014 16 in."
         },
         {
           "sku": "37-180",
-          "price": 9.75
+          "price": 9.75,
+          "sizeInches": 18,
+          "displaySku": "37-180 \u2014 18 in."
         },
         {
           "sku": "37-245",
-          "price": 12.25
+          "price": 12.25,
+          "sizeInches": 24,
+          "displaySku": "37-245 \u2014 24 in."
         }
       ],
       "minPrice": 9.75,
@@ -97,121 +139,177 @@
       "category": "Wiper blades",
       "name": "Icon beam wiper blades",
       "brand": "Bosch",
-      "sku": "BOS-13A–28A, 13OE–28OE, 24XT / 26XT",
+      "sku": "BOS-13A\u201328A, 13OE\u201328OE, 24XT / 26XT",
       "description": "Multiple blade lengths and connector versions.",
       "audience": "trade",
       "prices": [
         {
           "sku": "13A",
-          "price": 16.5
+          "price": 16.5,
+          "sizeInches": 13,
+          "displaySku": "13A \u2014 13 in."
         },
         {
           "sku": "13OE",
-          "price": 16.5
+          "price": 16.5,
+          "sizeInches": 13,
+          "displaySku": "13OE \u2014 13 in."
         },
         {
           "sku": "13B",
-          "price": 16.5
+          "price": 16.5,
+          "sizeInches": 13,
+          "displaySku": "13B \u2014 13 in."
         },
         {
           "sku": "15A",
-          "price": 16.5
+          "price": 16.5,
+          "sizeInches": 15,
+          "displaySku": "15A \u2014 15 in."
         },
         {
           "sku": "15OE",
-          "price": 16.5
+          "price": 16.5,
+          "sizeInches": 15,
+          "displaySku": "15OE \u2014 15 in."
         },
         {
           "sku": "16A",
-          "price": 16.5
+          "price": 16.5,
+          "sizeInches": 16,
+          "displaySku": "16A \u2014 16 in."
         },
         {
           "sku": "16OE",
-          "price": 16.5
+          "price": 16.5,
+          "sizeInches": 16,
+          "displaySku": "16OE \u2014 16 in."
         },
         {
           "sku": "17A",
-          "price": 16.5
+          "price": 16.5,
+          "sizeInches": 17,
+          "displaySku": "17A \u2014 17 in."
         },
         {
           "sku": "18A",
-          "price": 16.5
+          "price": 16.5,
+          "sizeInches": 18,
+          "displaySku": "18A \u2014 18 in."
         },
         {
           "sku": "18OE",
-          "price": 16.5
+          "price": 16.5,
+          "sizeInches": 18,
+          "displaySku": "18OE \u2014 18 in."
         },
         {
           "sku": "19A",
-          "price": 16.5
+          "price": 16.5,
+          "sizeInches": 19,
+          "displaySku": "19A \u2014 19 in."
         },
         {
           "sku": "19OE",
-          "price": 16.5
+          "price": 16.5,
+          "sizeInches": 19,
+          "displaySku": "19OE \u2014 19 in."
         },
         {
           "sku": "20A",
-          "price": 17.5
+          "price": 17.5,
+          "sizeInches": 20,
+          "displaySku": "20A \u2014 20 in."
         },
         {
           "sku": "20OE",
-          "price": 17.5
+          "price": 17.5,
+          "sizeInches": 20,
+          "displaySku": "20OE \u2014 20 in."
         },
         {
           "sku": "21A",
-          "price": 18.5
+          "price": 18.5,
+          "sizeInches": 21,
+          "displaySku": "21A \u2014 21 in."
         },
         {
           "sku": "21OE",
-          "price": 18.5
+          "price": 18.5,
+          "sizeInches": 21,
+          "displaySku": "21OE \u2014 21 in."
         },
         {
           "sku": "22A",
-          "price": 18.5
+          "price": 18.5,
+          "sizeInches": 22,
+          "displaySku": "22A \u2014 22 in."
         },
         {
           "sku": "22OE",
-          "price": 18.5
+          "price": 18.5,
+          "sizeInches": 22,
+          "displaySku": "22OE \u2014 22 in."
         },
         {
           "sku": "24A",
-          "price": 19.5
+          "price": 19.5,
+          "sizeInches": 24,
+          "displaySku": "24A \u2014 24 in."
         },
         {
           "sku": "24OE",
-          "price": 19.5
+          "price": 19.5,
+          "sizeInches": 24,
+          "displaySku": "24OE \u2014 24 in."
         },
         {
           "sku": "24XT",
-          "price": 19.5
+          "price": 19.5,
+          "sizeInches": 24,
+          "displaySku": "24XT \u2014 24 in."
         },
         {
           "sku": "26A",
-          "price": 20.99
+          "price": 20.99,
+          "sizeInches": 26,
+          "displaySku": "26A \u2014 26 in."
         },
         {
           "sku": "26OE",
-          "price": 20.99
+          "price": 20.99,
+          "sizeInches": 26,
+          "displaySku": "26OE \u2014 26 in."
         },
         {
           "sku": "26XT",
-          "price": 20.99
+          "price": 20.99,
+          "sizeInches": 26,
+          "displaySku": "26XT \u2014 26 in."
         },
         {
           "sku": "28A",
-          "price": 22.99
+          "price": 22.99,
+          "sizeInches": 28,
+          "displaySku": "28A \u2014 28 in."
         },
         {
           "sku": "28B",
-          "price": 22.99
+          "price": 22.99,
+          "sizeInches": 28,
+          "displaySku": "28B \u2014 28 in."
         },
         {
           "sku": "28OE",
-          "price": 22.99
+          "price": 22.99,
+          "sizeInches": 28,
+          "displaySku": "28OE \u2014 28 in."
         },
         {
           "sku": "28BOE",
-          "price": 22.99
+          "price": 22.99,
+          "sizeInches": 28,
+          "displaySku": "28BOE \u2014 28 in."
         }
       ],
       "minPrice": 16.5,
@@ -224,57 +322,81 @@
       "category": "Wiper blades",
       "name": "Evolution beam wiper blades",
       "brand": "Bosch",
-      "sku": "BOS-EVO13–EVO28",
+      "sku": "BOS-EVO13\u2013EVO28",
       "description": "Multiple lengths shown on the flyer.",
       "audience": "trade",
       "prices": [
         {
           "sku": "EVO13",
-          "price": 10.25
+          "price": 10.25,
+          "sizeInches": 13,
+          "displaySku": "EVO13 \u2014 13 in."
         },
         {
           "sku": "EVO15",
-          "price": 10.25
+          "price": 10.25,
+          "sizeInches": 15,
+          "displaySku": "EVO15 \u2014 15 in."
         },
         {
           "sku": "EVO16",
-          "price": 10.25
+          "price": 10.25,
+          "sizeInches": 16,
+          "displaySku": "EVO16 \u2014 16 in."
         },
         {
           "sku": "EVO17",
-          "price": 10.25
+          "price": 10.25,
+          "sizeInches": 17,
+          "displaySku": "EVO17 \u2014 17 in."
         },
         {
           "sku": "EVO18",
-          "price": 10.25
+          "price": 10.25,
+          "sizeInches": 18,
+          "displaySku": "EVO18 \u2014 18 in."
         },
         {
           "sku": "EVO19",
-          "price": 10.25
+          "price": 10.25,
+          "sizeInches": 19,
+          "displaySku": "EVO19 \u2014 19 in."
         },
         {
           "sku": "EVO20",
-          "price": 10.99
+          "price": 10.99,
+          "sizeInches": 20,
+          "displaySku": "EVO20 \u2014 20 in."
         },
         {
           "sku": "EVO21",
-          "price": 10.99
+          "price": 10.99,
+          "sizeInches": 21,
+          "displaySku": "EVO21 \u2014 21 in."
         },
         {
           "sku": "EVO22",
-          "price": 10.99
+          "price": 10.99,
+          "sizeInches": 22,
+          "displaySku": "EVO22 \u2014 22 in."
         },
         {
           "sku": "EVO24",
-          "price": 10.99
+          "price": 10.99,
+          "sizeInches": 24,
+          "displaySku": "EVO24 \u2014 24 in."
         },
         {
           "sku": "EVO26",
-          "price": 13.25
+          "price": 13.25,
+          "sizeInches": 26,
+          "displaySku": "EVO26 \u2014 26 in."
         },
         {
           "sku": "EVO28",
-          "price": 13.25
+          "price": 13.25,
+          "sizeInches": 28,
+          "displaySku": "EVO28 \u2014 28 in."
         }
       ],
       "minPrice": 10.25,
@@ -287,57 +409,93 @@
       "category": "Wiper blades",
       "name": "Clear Advantage wiper blades",
       "brand": "Bosch",
-      "sku": "BOS-13CA–28CA",
-      "description": "Multiple sizes listed.",
+      "sku": "BOS-13CA\u201328CA",
+      "description": "Multiple sizes listed. Size shown next to each SKU.",
       "audience": "trade",
       "prices": [
         {
           "sku": "13CA",
-          "price": 6.75
+          "price": 6.75,
+          "size": "13\"",
+          "displaySku": "13CA \u2014 13 in.",
+          "sizeInches": 13
         },
         {
           "sku": "15CA",
-          "price": 6.75
+          "price": 6.75,
+          "size": "15\"",
+          "displaySku": "15CA \u2014 15 in.",
+          "sizeInches": 15
         },
         {
           "sku": "16CA",
-          "price": 6.75
+          "price": 6.75,
+          "size": "16\"",
+          "displaySku": "16CA \u2014 16 in.",
+          "sizeInches": 16
         },
         {
           "sku": "17CA",
-          "price": 6.75
+          "price": 6.75,
+          "size": "17\"",
+          "displaySku": "17CA \u2014 17 in.",
+          "sizeInches": 17
         },
         {
           "sku": "18CA",
-          "price": 6.75
+          "price": 6.75,
+          "size": "18\"",
+          "displaySku": "18CA \u2014 18 in.",
+          "sizeInches": 18
         },
         {
           "sku": "19CA",
-          "price": 6.75
+          "price": 6.75,
+          "size": "19\"",
+          "displaySku": "19CA \u2014 19 in.",
+          "sizeInches": 19
         },
         {
           "sku": "20CA",
-          "price": 6.75
+          "price": 6.75,
+          "size": "20\"",
+          "displaySku": "20CA \u2014 20 in.",
+          "sizeInches": 20
         },
         {
           "sku": "21CA",
-          "price": 6.75
+          "price": 6.75,
+          "size": "21\"",
+          "displaySku": "21CA \u2014 21 in.",
+          "sizeInches": 21
         },
         {
           "sku": "22CA",
-          "price": 6.75
+          "price": 6.75,
+          "size": "22\"",
+          "displaySku": "22CA \u2014 22 in.",
+          "sizeInches": 22
         },
         {
           "sku": "24CA",
-          "price": 6.75
+          "price": 6.75,
+          "size": "24\"",
+          "displaySku": "24CA \u2014 24 in.",
+          "sizeInches": 24
         },
         {
           "sku": "26CA",
-          "price": 6.75
+          "price": 6.75,
+          "size": "26\"",
+          "displaySku": "26CA \u2014 26 in.",
+          "sizeInches": 26
         },
         {
           "sku": "28CA",
-          "price": 6.75
+          "price": 6.75,
+          "size": "28\"",
+          "displaySku": "28CA \u2014 28 in.",
+          "sizeInches": 28
         }
       ],
       "minPrice": 6.75,
@@ -350,65 +508,107 @@
       "category": "Wiper blades",
       "name": "Direct Connect wiper blades",
       "brand": "Bosch",
-      "sku": "BOS-40510–40528 (selected codes)",
-      "description": "Confirm connector and blade size.",
+      "sku": "BOS-40510\u201340528 (selected codes)",
+      "description": "Confirm connector and blade size. Size shown next to each SKU.",
       "audience": "trade",
       "prices": [
         {
           "sku": "40510",
-          "price": 3.5
+          "price": 3.5,
+          "size": "10\"",
+          "displaySku": "40510 \u2014 10 in.",
+          "sizeInches": 10
         },
         {
           "sku": "40511",
-          "price": 3.5
+          "price": 3.5,
+          "size": "11\"",
+          "displaySku": "40511 \u2014 11 in.",
+          "sizeInches": 11
         },
         {
           "sku": "40513",
-          "price": 3.5
+          "price": 3.5,
+          "size": "13\"",
+          "displaySku": "40513 \u2014 13 in.",
+          "sizeInches": 13
         },
         {
           "sku": "40515",
-          "price": 3.5
+          "price": 3.5,
+          "size": "15\"",
+          "displaySku": "40515 \u2014 15 in.",
+          "sizeInches": 15
         },
         {
           "sku": "40516",
-          "price": 3.5
+          "price": 3.5,
+          "size": "16\"",
+          "displaySku": "40516 \u2014 16 in.",
+          "sizeInches": 16
         },
         {
           "sku": "40517",
-          "price": 3.5
+          "price": 3.5,
+          "size": "17\"",
+          "displaySku": "40517 \u2014 17 in.",
+          "sizeInches": 17
         },
         {
           "sku": "40518",
-          "price": 3.5
+          "price": 3.5,
+          "size": "18\"",
+          "displaySku": "40518 \u2014 18 in.",
+          "sizeInches": 18
         },
         {
           "sku": "40519",
-          "price": 3.5
+          "price": 3.5,
+          "size": "19\"",
+          "displaySku": "40519 \u2014 19 in.",
+          "sizeInches": 19
         },
         {
           "sku": "40520",
-          "price": 3.5
+          "price": 3.5,
+          "size": "20\"",
+          "displaySku": "40520 \u2014 20 in.",
+          "sizeInches": 20
         },
         {
           "sku": "40521",
-          "price": 3.5
+          "price": 3.5,
+          "size": "21\"",
+          "displaySku": "40521 \u2014 21 in.",
+          "sizeInches": 21
         },
         {
           "sku": "40522",
-          "price": 3.5
+          "price": 3.5,
+          "size": "22\"",
+          "displaySku": "40522 \u2014 22 in.",
+          "sizeInches": 22
         },
         {
           "sku": "40524",
-          "price": 3.5
+          "price": 3.5,
+          "size": "24\"",
+          "displaySku": "40524 \u2014 24 in.",
+          "sizeInches": 24
         },
         {
           "sku": "40526",
-          "price": 3.5
+          "price": 3.5,
+          "size": "26\"",
+          "displaySku": "40526 \u2014 26 in.",
+          "sizeInches": 26
         },
         {
           "sku": "40528",
-          "price": 3.5
+          "price": 3.5,
+          "size": "28\"",
+          "displaySku": "40528 \u2014 28 in.",
+          "sizeInches": 28
         }
       ],
       "minPrice": 3.5,
@@ -422,63 +622,99 @@
       "name": "Perfect View wiper blades",
       "brand": "Perfect View",
       "sku": "PV13C / 15C / 16C / 17C / 18C / 19C / 20C / 21C / 22C / 24C / 26C / 28C",
-      "description": "Sizes listed on flyer.",
+      "description": "Sizes listed on flyer. Size shown next to each SKU.",
       "audience": "trade",
       "prices": [
         {
           "sku": "PV13C",
-          "price": 5.7
+          "price": 5.7,
+          "size": "13\"",
+          "displaySku": "PV13C \u2014 13 in.",
+          "sizeInches": 13
         },
         {
           "sku": "PV15C",
-          "price": 5.7
+          "price": 5.7,
+          "size": "15\"",
+          "displaySku": "PV15C \u2014 15 in.",
+          "sizeInches": 15
         },
         {
           "sku": "PV16C",
-          "price": 5.7
+          "price": 5.7,
+          "size": "16\"",
+          "displaySku": "PV16C \u2014 16 in.",
+          "sizeInches": 16
         },
         {
           "sku": "PV17C",
-          "price": 5.7
+          "price": 5.7,
+          "size": "17\"",
+          "displaySku": "PV17C \u2014 17 in.",
+          "sizeInches": 17
         },
         {
           "sku": "PV18C",
-          "price": 5.7
+          "price": 5.7,
+          "size": "18\"",
+          "displaySku": "PV18C \u2014 18 in.",
+          "sizeInches": 18
         },
         {
           "sku": "PV19C",
-          "price": 5.7
+          "price": 5.7,
+          "size": "19\"",
+          "displaySku": "PV19C \u2014 19 in.",
+          "sizeInches": 19
         },
         {
           "sku": "PV20C",
-          "price": 5.7
+          "price": 5.7,
+          "size": "20\"",
+          "displaySku": "PV20C \u2014 20 in.",
+          "sizeInches": 20
         },
         {
           "sku": "PV21C",
-          "price": 5.7
+          "price": 5.7,
+          "size": "21\"",
+          "displaySku": "PV21C \u2014 21 in.",
+          "sizeInches": 21
         },
         {
           "sku": "PV22C",
-          "price": 5.7
+          "price": 5.7,
+          "size": "22\"",
+          "displaySku": "PV22C \u2014 22 in.",
+          "sizeInches": 22
         },
         {
           "sku": "PV24C",
-          "price": 5.7
+          "price": 5.7,
+          "size": "24\"",
+          "displaySku": "PV24C \u2014 24 in.",
+          "sizeInches": 24
         },
         {
           "sku": "PV26C",
-          "price": 5.7
+          "price": 5.7,
+          "size": "26\"",
+          "displaySku": "PV26C \u2014 26 in.",
+          "sizeInches": 26
         },
         {
           "sku": "PV28C",
-          "price": 5.7
+          "price": 5.7,
+          "size": "28\"",
+          "displaySku": "PV28C \u2014 28 in.",
+          "sizeInches": 28
         }
       ],
       "minPrice": 5.7,
       "maxPrice": 5.7,
-      "photoUrl": null,
-      "photoSource": null,
-      "photoType": "Photo pending verification"
+      "photoUrl": "https://i5.walmartimages.com/seo/PERFECT-VIEW-WIPER-BLADE_99c94336-cdbf-46f2-8910-1978e78d9511.db609b7c65ed3b5620769f55a303c22a.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+      "photoSource": "Walmart / manufacturer listing",
+      "photoType": "Exact product photo"
     },
     {
       "category": "Coolants & washer fluids",
@@ -597,7 +833,7 @@
     },
     {
       "category": "Coolants & washer fluids",
-      "name": "Max Asian antifreeze — red / blue",
+      "name": "Max Asian antifreeze \u2014 red / blue",
       "brand": "Prestone",
       "sku": "AF6210 / AF6310",
       "description": "Asian vehicle-specific red and blue formulations.",
@@ -831,7 +1067,7 @@
     {
       "category": "Coolants & washer fluids",
       "name": "Snow plow fluid",
-      "brand": "Bar’s Leaks",
+      "brand": "Bar\u2019s Leaks",
       "sku": "BAR HSP12",
       "description": "Snow plow hydraulic system fluid.",
       "audience": "general",
@@ -843,9 +1079,9 @@
       ],
       "minPrice": 3.46,
       "maxPrice": 3.46,
-      "photoUrl": null,
-      "photoSource": null,
-      "photoType": "Photo pending verification"
+      "photoUrl": "https://barsleaks.com/wp-content/uploads/HydraulicGroupPicsUS.png",
+      "photoSource": "Bar's Leaks",
+      "photoType": "Representative product-family photo"
     },
     {
       "category": "Coolants & washer fluids",
@@ -885,9 +1121,9 @@
       ],
       "minPrice": 0.96,
       "maxPrice": 1.69,
-      "photoUrl": null,
-      "photoSource": null,
-      "photoType": "Photo pending verification"
+      "photoUrl": "https://www.hardwareworld.com/pimimages/303/067194303673.jpg",
+      "photoSource": "Hardware World",
+      "photoType": "Exact product photo"
     },
     {
       "category": "Winter care",
@@ -929,7 +1165,7 @@
     },
     {
       "category": "Winter care",
-      "name": "Windshield de-icer — 12 oz",
+      "name": "Windshield de-icer \u2014 12 oz",
       "brand": "Motor Medic",
       "sku": "MMD DE1",
       "description": "Windshield de-icer formula.",
@@ -961,13 +1197,13 @@
       ],
       "minPrice": 1.6,
       "maxPrice": 1.6,
-      "photoUrl": null,
-      "photoSource": null,
-      "photoType": "Photo pending verification"
+      "photoUrl": "https://images.powersportsid.com/sm-arnold/items/25-663.jpg",
+      "photoSource": "PowersportsID",
+      "photoType": "Exact product photo"
     },
     {
       "category": "Winter care",
-      "name": "Snow broom scraper — 47 in",
+      "name": "Snow broom scraper \u2014 47 in",
       "brand": "SM Arnold",
       "sku": "SMA 25-660",
       "description": "Extended broom-and-scraper tool.",
@@ -986,7 +1222,7 @@
     },
     {
       "category": "Winter care",
-      "name": "Snow brush scraper — 21 in",
+      "name": "Snow brush scraper \u2014 21 in",
       "brand": "SM Arnold",
       "sku": "SMA 25-661",
       "description": "Compact snow brush with scraper.",
@@ -999,13 +1235,13 @@
       ],
       "minPrice": 3.8,
       "maxPrice": 3.8,
-      "photoUrl": null,
-      "photoSource": null,
-      "photoType": "Photo pending verification"
+      "photoUrl": "https://images.powersportsid.com/sm-arnold/items/25-661.jpg",
+      "photoSource": "PowersportsID",
+      "photoType": "Exact product photo"
     },
     {
       "category": "Winter care",
-      "name": "Snow brush — 35 in flagged",
+      "name": "Snow brush \u2014 35 in flagged",
       "brand": "SM Arnold",
       "sku": "SMA 25-668",
       "description": "Flagged bristle snow brush.",
@@ -1018,9 +1254,9 @@
       ],
       "minPrice": 7.6,
       "maxPrice": 7.6,
-      "photoUrl": null,
-      "photoSource": null,
-      "photoType": "Photo pending verification"
+      "photoUrl": "https://ic.carid.com/s-m-arnold/items/25-667_3.jpg",
+      "photoSource": "CARiD",
+      "photoType": "Representative product-family photo"
     },
     {
       "category": "Winter care",
@@ -1075,9 +1311,9 @@
       ],
       "minPrice": 19.5,
       "maxPrice": 19.5,
-      "photoUrl": null,
-      "photoSource": null,
-      "photoType": "Photo pending verification"
+      "photoUrl": "https://procheminc.com/wp-content/uploads/2015/08/Sno-Pro-500x500.jpg",
+      "photoSource": "Pro Chem",
+      "photoType": "Exact product photo"
     },
     {
       "category": "Winter care",
@@ -1094,13 +1330,13 @@
       ],
       "minPrice": 17.5,
       "maxPrice": 17.5,
-      "photoUrl": null,
-      "photoSource": null,
-      "photoType": "Photo pending verification"
+      "photoUrl": "https://www.meyerproducts.com/wp-content/uploads/pro-edge-featured-image.jpg",
+      "photoSource": "Meyer Products",
+      "photoType": "Exact product photo"
     },
     {
       "category": "Winter care",
-      "name": "Snow brush / scraper — 24 in",
+      "name": "Snow brush / scraper \u2014 24 in",
       "brand": "Performance Tool",
       "sku": "WIL W1461",
       "description": "24-inch brush and scraper.",
@@ -1113,13 +1349,13 @@
       ],
       "minPrice": 5.25,
       "maxPrice": 5.25,
-      "photoUrl": null,
-      "photoSource": null,
-      "photoType": "Photo pending verification"
+      "photoUrl": "https://images.autoplicity.com/performance-tool-w1461_2.jpg",
+      "photoSource": "Autoplicity",
+      "photoType": "Exact product photo"
     },
     {
       "category": "Winter care",
-      "name": "Telescoping snow brush — 3-in-1",
+      "name": "Telescoping snow brush \u2014 3-in-1",
       "brand": "Performance Tool",
       "sku": "WIL W1465",
       "description": "Telescoping combination winter tool.",
@@ -1151,13 +1387,13 @@
       ],
       "minPrice": 6.15,
       "maxPrice": 6.15,
-      "photoUrl": null,
-      "photoSource": null,
-      "photoType": "Photo pending verification"
+      "photoUrl": "https://media.napaonline.com/is/image/GenuinePartsCompany/316976766",
+      "photoSource": "Autoplicity",
+      "photoType": "Representative product photo"
     },
     {
       "category": "Winter care",
-      "name": "Gas-line antifreeze — Heet",
+      "name": "Gas-line antifreeze \u2014 Heet",
       "brand": "Gold Eagle",
       "sku": "GLD 28201",
       "description": "Gasoline antifreeze additive.",
@@ -1176,7 +1412,7 @@
     },
     {
       "category": "Winter care",
-      "name": "Gas-line antifreeze — Iso-Heet",
+      "name": "Gas-line antifreeze \u2014 Iso-Heet",
       "brand": "Gold Eagle",
       "sku": "GLD 28202",
       "description": "Premium gasoline antifreeze additive.",
@@ -1208,9 +1444,9 @@
       ],
       "minPrice": 1.71,
       "maxPrice": 1.71,
-      "photoUrl": null,
-      "photoSource": null,
-      "photoType": "Photo pending verification"
+      "photoUrl": "https://www.kingscotechemicals.com/wp-content/uploads/2021/09/BER-IPA-1024x1024.jpg",
+      "photoSource": "Kingscote Chemicals",
+      "photoType": "Exact product photo"
     },
     {
       "category": "Coatings & chemicals",
@@ -1453,9 +1689,9 @@
       ],
       "minPrice": 7.75,
       "maxPrice": 7.75,
-      "photoUrl": null,
-      "photoSource": null,
-      "photoType": "Photo pending verification"
+      "photoUrl": "https://contentinfo.autozone.com/znetcs/product-info/en/US/gol/22264/image/10/",
+      "photoSource": "AutoZone",
+      "photoType": "Exact product photo"
     },
     {
       "category": "Additives & treatments",
@@ -1644,9 +1880,9 @@
       ],
       "minPrice": 10.85,
       "maxPrice": 10.85,
-      "photoUrl": null,
-      "photoSource": null,
-      "photoType": "Photo pending verification"
+      "photoUrl": "https://www.lucasoil.com/wp-content/uploads/ColdTempHydraulicFluid_11324_WebHeader.png",
+      "photoSource": "Lucas Oil",
+      "photoType": "Exact product photo"
     },
     {
       "category": "Additives & treatments",
@@ -1667,9 +1903,9 @@
       ],
       "minPrice": 8.85,
       "maxPrice": 17.5,
-      "photoUrl": null,
-      "photoSource": null,
-      "photoType": "Photo pending verification"
+      "photoUrl": "assets/product-photos/lucas-winter-shield.png",
+      "photoSource": "Lucas Oil",
+      "photoType": "Product photo copied locally"
     },
     {
       "category": "Additives & treatments",
@@ -1743,7 +1979,7 @@
     {
       "category": "Additives & treatments",
       "name": "Radiator Stop Leak",
-      "brand": "Bar’s Leaks",
+      "brand": "Bar\u2019s Leaks",
       "sku": "BAR 1199",
       "description": "Radiator leak treatment.",
       "audience": "general",
@@ -1762,7 +1998,7 @@
     {
       "category": "Additives & treatments",
       "name": "Liquid Aluminum Stop Leak",
-      "brand": "Bar’s Leaks",
+      "brand": "Bar\u2019s Leaks",
       "sku": "BAR 1186",
       "description": "Cooling system leak treatment.",
       "audience": "general",

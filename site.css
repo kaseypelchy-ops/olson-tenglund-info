@@ -313,3 +313,16 @@ body:not(.landing-reference) .main-nav a[aria-current=page]{color:#ff4564}
 .promo-price-list-dense .promo-price-item code{font-size:.62rem}
 .promo-price-list-dense .promo-price-item strong{font-size:.76rem}
 @media(max-width:510px){.promo-card-image{height:230px}}
+
+/* Verified wiper dimensions: separate visible label per SKU. */
+.promo-price-item code {white-space:normal;flex:1;overflow-wrap:anywhere}
+.promo-blade-length {display:inline-block;flex:0 0 auto;font-size:.72rem;font-weight:900;color:#082b4d;background:#e3ecf5;border:1px solid #c9dbe9;border-radius:5px;padding:3px 6px;white-space:nowrap}
+.promo-price-list-dense .promo-price-item{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:5px}
+.promo-price-list-dense .promo-price-item code{font-size:.66rem}
+.promo-price-item[data-blade-length]{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:6px}
+.promo-photo-unavailable {display:flex;flex-direction:column;justify-content:center;align-items:center;gap:9px;text-align:center;height:100%;width:100%;padding:20px;color:#183958;background:#eff5f9}
+.promo-photo-unavailable strong {font-size:.9rem;line-height:1.25}
+.promo-photo-unavailable span {font-size:.72rem;line-height:1.4}
+.promo-photo-unavailable a{font-size:.73rem;color:#be0a31;text-decoration:underline;font-weight:800}
+.promo-photo-credit a {color:#b8082c;text-decoration:underline}
+.promo-image-disclaimer{font-size:.78rem;color:#586a7a}
