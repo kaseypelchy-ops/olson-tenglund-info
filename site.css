@@ -191,3 +191,40 @@ body:not(.landing-reference) .main-nav a[aria-current=page]{color:#ff4564}
   .landing-reference .ref-hero{height:auto;min-height:0}
   .landing-reference .ref-hero-inner{min-height:0;padding-top:65px;padding-bottom:65px}
 }
+
+/* Practical parts guide: existing typography/colors with minimal new page layout. */
+.parts-guide-hero .shell{padding-top:65px;padding-bottom:65px}
+.parts-guide-hero h1{font-size:clamp(3.3rem,6vw,5.4rem)}
+.parts-guide-content{background:#f6f8fa;padding:48px 0 90px}
+.parts-guide-layout{display:grid;grid-template-columns:minmax(0,1.85fr) minmax(270px,.9fr);gap:62px;align-items:start}
+.parts-guide-main{background:#fff;border:1px solid #dbe4eb;padding:clamp(22px,3vw,45px);border-radius:12px}
+.parts-guide-main h2{font-size:clamp(1.85rem,3.5vw,2.5rem);color:#06182e;line-height:1.12;margin:12px 0 19px}
+.parts-guide-main p{color:#40566c;line-height:1.8}
+.parts-guide-list{padding-left:25px;margin:22px 0 45px}
+.parts-guide-list li{padding:7px 0 10px 10px;border-bottom:1px solid #e4ebf1}
+.parts-guide-list h3{font-size:1.4rem;color:#071e37;line-height:1.2;margin:5px 0}
+.parts-guide-list p{margin:0 0 12px}
+.parts-guide-tip{padding:16px 20px;background:#eef4f8;border-left:4px solid #cc0e32;border-radius:0 8px 8px 0;margin-bottom:20px}
+.parts-guide-tip p{margin:0}
+.parts-guide-aside{display:grid;gap:18px}
+.parts-guide-checklist{background:#061c35;color:#fff;padding:29px;border-radius:12px;border-top:4px solid #e81740}
+.parts-guide-checklist h2{font-size:2.4rem;line-height:1.05;margin:12px 0 14px;color:#fff}
+.parts-guide-checklist ul{list-style:none;padding:0;margin:0 0 23px}
+.parts-guide-checklist li{border-bottom:1px solid #ffffff26;padding:10px 0;color:#e2edf4;font-size:.94rem}
+.parts-guide-checklist li:before{content:'✓';color:#ff637b;font-weight:800;margin-right:10px}
+.parts-guide-help{border:1px solid #dbe4eb;border-radius:12px;background:#fff;padding:24px}
+.parts-guide-help h3{font-size:1.55rem;line-height:1.1;margin-bottom:8px}
+.parts-guide-help p{color:#506579;font-size:.92rem;line-height:1.6}
+.parts-guide-help a{font-weight:800;color:#b40a2c;text-underline-offset:3px}
+.parts-guide-store-list{display:grid;gap:10px;margin-top:18px}
+.parts-guide-store-list a{display:flex;align-items:center;justify-content:space-between;gap:15px;border:1px solid #d7e1e9;background:#f5f8fb;border-radius:8px;text-decoration:none;padding:14px 17px}
+.parts-guide-store-list a:hover{border-color:#c70a29}
+.parts-guide-store-list a strong{font-weight:800;color:#092b4b}
+.parts-guide-store-list a span{font-size:.84rem;color:#526476}
+.parts-guide-crosslink{background:#edf3f7;border-top:1px solid #dce6ec;border-bottom:1px solid #dce6ec;padding:32px 0}
+.parts-guide-crosslink>.shell{display:flex;align-items:center;justify-content:space-between;gap:32px}
+.parts-guide-crosslink h2{color:#09223d;font-size:clamp(1.7rem,3vw,2.3rem);line-height:1.12;margin:10px 0 6px}
+.parts-guide-crosslink p{color:#536879;margin:0}
+.parts-guide-crosslink .button{white-space:nowrap;flex-shrink:0}
+@media(max-width:860px){.parts-guide-layout{grid-template-columns:1fr;gap:25px}.parts-guide-aside{grid-template-columns:1fr 1fr}.parts-guide-crosslink>.shell{flex-wrap:wrap}}
+@media(max-width:620px){.parts-guide-content{padding:28px 0 45px}.parts-guide-aside{grid-template-columns:1fr}.parts-guide-crosslink .button{width:100%;white-space:normal}.parts-guide-store-list a{flex-direction:column;align-items:flex-start;gap:3px}}
