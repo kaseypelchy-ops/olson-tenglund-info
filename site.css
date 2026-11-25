@@ -236,3 +236,24 @@ body:not(.landing-reference) .main-nav a[aria-current=page]{color:#ff4564}
 .footer-facebook svg{flex:none;display:block}
 .about-facebook-note{margin-top:18px!important;font-size:.95rem!important}
 .about-facebook-note a{color:#b20b2d;font-weight:800;text-underline-offset:3px}
+
+/* Phase 3: restrained editorial resources, consistent with approved styling. */
+.resource-cards{display:grid;gap:15px;margin:26px 0 38px}
+.resource-cards a{display:block;padding:24px 25px;background:#f5f8fb;border:1px solid #dce5ed;border-radius:12px;text-decoration:none;transition:border-color .2s,transform .2s}
+.resource-cards a:hover{border-color:#be0d2f;transform:translateY(-2px)}
+.resource-cards h3{font-size:1.7rem;color:#08213e;line-height:1.1;margin:7px 0}
+.resource-cards p{margin:0 0 12px!important;color:#506479}
+.resource-label{font-size:.7rem;letter-spacing:.13em;color:#b30a2b;font-weight:800;text-transform:uppercase}
+.resource-arrow{color:#b30a2b;font-weight:800;font-size:.92rem}
+.home-resources{padding:58px 0 65px;background:#f2f5f8;border-top:1px solid #dfe6ed}
+.home-resources-head{display:flex;align-items:flex-end;justify-content:space-between;gap:26px;margin-bottom:24px}
+.home-resources-head h2{font-size:clamp(2.3rem,4vw,3.3rem);margin:9px 0 5px;color:#071e37}
+.home-resources-head p{margin:0;color:#526778}
+.home-resources-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.home-resources-grid a{background:#fff;color:#071e37;border:1px solid #d5dfe7;border-top:4px solid #c70a29;border-radius:10px;text-decoration:none;padding:23px;box-shadow:0 9px 23px #071c3010;display:flex;flex-direction:column;gap:8px;transition:transform .18s,border-color .18s}
+.home-resources-grid a:hover{transform:translateY(-3px);border-color:#d01232}
+.home-resources-grid span{font-size:.7rem;font-weight:900;letter-spacing:.14em;color:#b70b2c}
+.home-resources-grid strong{font-family:'Barlow Condensed',Impact,sans-serif;font-size:1.7rem;line-height:1.12}
+.home-resources-grid small{color:#526879;font-size:.85rem}
+.parts-guide-checklist p{color:#dce6ef;font-size:.93rem;line-height:1.6}
+@media(max-width:800px){.home-resources-grid{grid-template-columns:1fr}.home-resources-head{display:block}.home-resources-head>a{display:inline-block;margin-top:15px}}
