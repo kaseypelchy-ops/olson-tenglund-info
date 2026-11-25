@@ -262,3 +262,21 @@ body:not(.landing-reference) .main-nav a[aria-current=page]{color:#ff4564}
 .site-management-credit{padding-top:11px;margin-top:12px;border-top:1px solid rgba(255,255,255,.12);font-size:.74rem;line-height:1.55;color:#9cb0c0;text-align:center}
 .site-management-credit a{color:#ccdae6;text-decoration:none;text-underline-offset:3px}
 .site-management-credit a:hover,.site-management-credit a:focus-visible{color:#fff;text-decoration:underline}
+
+
+/* Compact, aligned footer: store directory remains visible without large unused space. */
+.site-footer{padding:34px 0 17px}
+.footer-top{grid-template-columns:1.12fr repeat(3,minmax(0,1fr));gap:28px;align-items:start}
+.footer-logo,.landing-reference .footer-logo{max-width:162px}
+.footer-intro p{font-size:.8rem;line-height:1.55;margin-top:10px;margin-bottom:0}
+.footer-facebook{margin-top:10px;padding:7px 10px;font-size:.78rem}
+.footer-store strong{margin-bottom:5px}
+.footer-store a{margin-top:7px}
+.footer-bottom{display:flex;align-items:center;flex-wrap:wrap;justify-content:space-between;gap:9px 24px;margin-top:28px;padding-top:14px}
+.footer-bottom nav{display:flex;align-items:center;flex-wrap:wrap;gap:10px 16px}
+.footer-bottom .site-management-credit{flex:1 0 100%;text-align:right;margin:1px 0 0;padding:0;border:0;font-size:.69rem;line-height:1.4;color:#9cb0c0}
+.footer-bottom .site-management-credit a{color:#c3d5e3;text-decoration:none}
+.footer-bottom .site-management-credit a:hover,.footer-bottom .site-management-credit a:focus-visible{color:#fff;text-decoration:underline}
+@media(max-width:950px){.footer-top{grid-template-columns:repeat(2,minmax(0,1fr));gap:23px 30px}.footer-bottom .site-management-credit{text-align:left}}
+@media(max-width:720px){.site-footer{padding:30px 0 18px}.footer-top{gap:22px 24px}.footer-bottom{display:flex;margin-top:22px}.footer-bottom nav{margin-top:0}.footer-bottom .site-management-credit{flex-basis:100%}}
+@media(max-width:420px){.footer-top{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 12px}.footer-intro{grid-column:1/-1}.footer-logo,.landing-reference .footer-logo{max-width:148px}.footer-bottom nav{gap:8px 14px}}
