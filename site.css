@@ -257,3 +257,8 @@ body:not(.landing-reference) .main-nav a[aria-current=page]{color:#ff4564}
 .home-resources-grid small{color:#526879;font-size:.85rem}
 .parts-guide-checklist p{color:#dce6ef;font-size:.93rem;line-height:1.6}
 @media(max-width:800px){.home-resources-grid{grid-template-columns:1fr}.home-resources-head{display:block}.home-resources-head>a{display:inline-block;margin-top:15px}}
+
+/* Quiet website-management credit, separate from primary business information. */
+.site-management-credit{padding-top:11px;margin-top:12px;border-top:1px solid rgba(255,255,255,.12);font-size:.74rem;line-height:1.55;color:#9cb0c0;text-align:center}
+.site-management-credit a{color:#ccdae6;text-decoration:none;text-underline-offset:3px}
+.site-management-credit a:hover,.site-management-credit a:focus-visible{color:#fff;text-decoration:underline}
